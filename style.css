@@ -1,4 +1,52 @@
-body {background-color:black; font-family: arial;color:white}
-h1{color:grey;font-family:verdana}
-.maindiv {background-color:white;color:black;width:300px;padding:20px;radius:25px;align:center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.maindiv {
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+
+}
+button {
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+}
+button:hover {
+  background-color: darkgray;
+  color: #000;
+}
+input, select {
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+}
+h1 {
+  padding-bottom: 5vh;
+}
+label {
+  padding-bottom: .5rem;
+}
+.centered {
+  position: fixed;
+  top: 20vh;
+  left: 25vw;
 }
